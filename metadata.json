@@ -1,39 +1,43 @@
 {
-    "meta": {
-        "build": {
-            "build-date": "2026-05-01",
-            "codified-date": "2026-05-01",
-            "platform": {
-                "reproducible": "false",
-                "version": "2.12.10"
-            },
-            "repositories": [
-                {
-                    "commit": "3c6d5e5b19e0971633ec670d8a71df98ec56f33e",
-                    "name": "DCCouncil/law-xml"
-                },
-                {
-                    "commit": "9df586919bd383a70800ae3fbb480ab016fa6073",
-                    "name": "DCCouncil/law-xml-codified"
-                }
-            ]
+  "meta": {
+    "build": {
+      "build-date": "2026-05-19",
+      "codified-date": "2026-05-19",
+      "platform": {
+        "reproducible": "false",
+        "version": "2.20.9"
+      },
+      "publication": "publication/2026-05-12",
+      "repositories": [
+        {
+          "commit": "0820758e60b96c7f5fc0b1466a1b8e0552681382",
+          "name": "DCCouncil/law-xml"
         },
-        "canonical-urls": {
-            "html": "https://code.dccouncil.us",
-            "html-bulk": "https://github.com/dccouncil/law-html",
-            "law-git": "https://github.com/dccouncil/law.git",
-            "static-assets": "https://github.com/dccouncil/law-static-assets",
-            "xml-bulk": "https://github.com/dccouncil/law-xml"
-        },
-        "contact": {
-            "email": "code@dccouncil.us"
-        },
-        "description": "Browse the laws and code of the District of Columbia",
-        "redirects": [
-            {
-                "in": "/dc/council",
-                "out": "/us/dc/council"
-            }
-        ]
-    }
+        {
+          "commit": "4ffa427982ab25b1f3de5e7c70bbe3c0454b3f22",
+          "name": "DCCouncil/law-xml-codified"
+        }
+      ],
+      "search": {
+        "version": "v2"
+      }
+    },
+    "canonical-urls": {
+      "html": "https://code.dccouncil.gov",
+      "html-bulk": "https://github.com/oll-test-repos/DCCouncil-law-html",
+      "law-git": "https://github.com/oll-test-repos/DCCouncil-law.git",
+      "static-assets": "https://github.com/oll-test-repos/DCCouncil-law-static-assets",
+      "xml-bulk": "https://github.com/oll-test-repos/DCCouncil-law-xml"
+    },
+    "contact": {
+      "email": "code@dccouncil.us"
+    },
+    "description": "Browse the laws and code of the District of Columbia",
+    "redirects": [
+      {
+        "in": "/dc/council",
+        "out": "/us/dc/council"
+      }
+    ]
+  }
 }
